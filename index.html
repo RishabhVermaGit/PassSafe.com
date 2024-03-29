@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassSafe.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid d-flex">
+              <a class="navbar-brand" href="https://github.com/RishabhVermaGit/PassSafe.com" target="_blank" rel='noopener'>
+                <img src="images/github-142-svgrepo-com.svg" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
+              </a>
+              <div class="d-flex"><div class="logo"><img src="images/lock-keyhole-minimalistic-unlocked-svgrepo-com.svg" alt="Logo" width="24" height="24" class="d-inline-block align-text-top mx-1 mt-1 "></div><div class="fs-5 text-light">PassSafe.com</div></div>
+              <div class="mode">
+                <img src="images/light-mode-svgrepo-com.svg" alt="Logo" width="24" height="24" class="d-inline-block align-text-top" id="mode1">
+                <img src="images/dark-mode-night-moon-svgrepo-com.svg" alt="Logo" width="24" height="24" class="d-none align-text-top" id="mode2">
+                </div>
+            </div>
+          </nav>
+    </header>
+    <main class="bg-light text-dark p-3 text-center">
+        <h1 class="fs-2 mb-4">Password Manager</h1>
+        <h4>Your passwords</h4>
+        <table class="table table-bordered table-light border-dark mt-3 mb-4 mx-auto">
+        </table>
+        <h4 class="mb-3">Add password</h4>
+        <form class="text-dark">
+            <div class="mb-3">
+              <input type="text" class="form-control border border-dark mx-auto" id="exampleInputWebsite" placeholder="Enter website name">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control border-dark mx-auto" id="exampleInputUsername" placeholder="Enter your username">
+            </div>
+            <div class=" mb-3">
+              <input type="password" class="form-control border-dark mx-auto" id="exampleInputPassword1" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-dark" id="submit">Submit</button>
+          </form>
+    </main>
+    <footer class="text-center text-light">Copyright | PassSafe.com | All rights secured</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
